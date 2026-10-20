@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Грузис · Грузовое такси и переезды по Нижнему Новгороду</title>
+<meta name="description" content="Свой автопарк и круглосуточная подача. Скажите, что и куда везём – назовём машину и стоимость до выезда, предоплата не нужна.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Грузовое такси в Нижнем Новгороде – машина быстро, без предоплаты">
+<meta property="og:description" content="Свой автопарк и круглосуточная подача. Скажите, что и куда везём – назовём машину и стоимость до выезда, предоплата не нужна.">
+<meta property="og:image" content="assets/cargo.webp">
+<link rel="preload" as="image" href="assets/cargo.webp" fetchpriority="high">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%276%27 y=%276%27 width=%2720%27 height=%2720%27 rx=%275%27 fill=%27%232f6bdc%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --c-canvas: #f4f6f9; --c-surface: #ffffff; --c-ink: #14213d; --c-ink-soft: #56607a; --c-accent: #1f4fd6; --c-accent-ink: #ffffff; --c-accent-deep: #1f4fd6; --f-display: "Golos Text", "Arial", system-ui, sans-serif; --f-text: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif; --h1k: 1; }
+</style>
+<link rel="stylesheet" href="style-prod.css">
+<style id="dribbble">
+/* референс: Dribbble «Waypoint» – туманный холст, синее выделенное слово в заголовке, пилюли-ярлыки с точкой, стеклянная плашка фактов, этапы на линии с синей активной карточкой, дуга-схема услуг */
+:root { --c-canvas: #eef1f4; --c-surface: #ffffff; --c-ink: #101a2e; --c-ink-soft: #5b677c; --c-accent: #2f6bdc; --c-accent-ink: #ffffff; --c-accent-deep: #2459c0; --tint: #e3ebfa; --hair: rgb(16 26 46 / .12); --r: 22px; --shadow: 0 24px 60px -28px rgb(24 52 110 / .35); }
+html, body { background: #eef1f4; }
+body { background: linear-gradient(180deg, #dfe7ee 0, #eef1f4 520px, #f3f2ec 100%) no-repeat, #f3f2ec; }
+h1, h2, h3 { letter-spacing: -.025em; font-weight: 700; }
+.s-hl { font-style: normal; color: var(--c-accent); }
+/* шапка – белая плавающая пилюля, как у Waypoint */
+.s-bar { top: 12px; margin: 12px auto 0; width: min(calc(100% - 2 * var(--gut)), calc(var(--wrap) - 2 * var(--gut))); padding: 6px 6px 6px 20px; border-radius: 16px; background: rgb(255 255 255 / .82); border: 1px solid rgb(255 255 255 / .9); box-shadow: 0 12px 36px -20px rgb(24 52 110 / .45); }
+.s-bar__brand { font-size: 1.15rem; letter-spacing: -.02em; }
+.s-bar__brand i { border-radius: 4px; width: .7em; height: .7em; }
+.s-btn { border-radius: 10px; gap: .7em; box-shadow: 0 10px 24px -14px rgb(47 107 220 / .8); letter-spacing: -.005em; }
+.s-btn:not(.s-btn--ghost)::after { content: "↗"; display: inline-grid; place-items: center; width: 1.45em; height: 1.45em; border-radius: 6px; background: rgb(255 255 255 / .2); font-size: .9em; line-height: 1; }
+.s-btn--ghost { box-shadow: none; background: rgb(255 255 255 / .7); }
+.s-btn--ghost::after { content: none !important; }
+/* пилюля-ярлык с точкой */
+.s-eyebrow, .s-tag { display: inline-flex; align-items: center; gap: 8px; width: fit-content; font: 600 .8rem/1 var(--f-text); letter-spacing: .01em; text-transform: none; color: var(--c-ink); padding: 8px 14px 8px 10px; border-radius: 999px; background: rgb(255 255 255 / .8); border: 1px solid rgb(16 26 46 / .08); box-shadow: 0 6px 18px -12px rgb(24 52 110 / .4); }
+.s-eyebrow::before, .s-tag::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c-accent); box-shadow: 0 0 0 4px rgb(47 107 220 / .16); }
+/* первый экран: туман над фото + стеклянная плашка фактов */
+.s-hero { padding-top: clamp(40px, 6vw, 76px); }
+.s-hero__bg { height: min(86%, 760px); }
+.s-hero__widget { position: static; }
+.s-hero__bg img { opacity: .5; filter: saturate(.9) contrast(.95); object-position: 50% 62%; }
+.s-hero__bg::after { background: linear-gradient(90deg, rgb(238 241 244 / .94) 0%, rgb(238 241 244 / .72) 45%, rgb(238 241 244 / 0) 80%), linear-gradient(180deg, rgb(238 241 244 / .96) 0%, rgb(238 241 244 / .7) 38%, rgb(238 241 244 / .25) 70%, #f3f2ec 100%); }
+.s-hero h1 { font-size: calc(clamp(2.1rem, 3.9vw, 3.35rem) * var(--h1k, 1)); line-height: 1.02; hyphens: manual; }
+.s-lead { color: #465268; }
+.s-ticks li { font-weight: 600; }
+.s-widget { border-radius: 26px; border: 1px solid rgb(255 255 255 / .9); background: rgb(255 255 255 / .92); box-shadow: var(--shadow); }
+.s-chip { border-radius: 12px; }
+.s-total b { color: var(--c-accent); }
+.s-bubble { border-radius: 14px; }
+.s-strip { grid-column: 1 / -1; list-style: none; margin: 8px 0 0; padding: 14px 8px; display: grid; grid-template-columns: repeat(4, 1fr); border-radius: 20px; background: rgb(255 255 255 / .62); border: 1px solid rgb(255 255 255 / .9); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: 0 18px 44px -26px rgb(24 52 110 / .5); }
+.s-strip li { display: grid; gap: 2px; padding: 4px 22px; border-left: 1px solid var(--hair); }
+.s-strip li:first-child { border-left: 0; }
+.s-strip b { font: 700 1.55rem/1.1 var(--f-display); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.s-strip span { font-size: .84rem; color: var(--c-ink-soft); }
+/* секции */
+.s-section__head { gap: 14px; }
+.s-section__head h2 { font-size: clamp(1.9rem, 3.8vw, 3rem); line-height: 1.04; }
+.s-incl > div { border-radius: 24px; border: 1px solid rgb(255 255 255 / .9); box-shadow: 0 18px 44px -30px rgb(24 52 110 / .4); }
+.s-incl > div:first-child { background: linear-gradient(160deg, #e6eefc, #dbe6fa); }
+.s-board__row { padding: 14px 0; }
+.s-board__price { color: var(--c-accent-deep); }
+.s-board__title { color: var(--c-accent-deep); }
+/* этапы на линии с синей активной карточкой */
+.s-steps { position: relative; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; padding-top: 42px; counter-reset: st; }
+.s-steps::before { content: ""; position: absolute; top: 14px; left: 4%; right: 4%; height: 1px; background: linear-gradient(90deg, transparent, rgb(16 26 46 / .28) 8%, rgb(16 26 46 / .28) 92%, transparent); }
+.s-steps__item { position: relative; border-radius: 18px; background: rgb(255 255 255 / .62); border: 1px solid rgb(255 255 255 / .9); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); padding: 18px; transition: background-color .25s ease, color .25s ease, transform .25s ease; }
+.s-steps__item::before { content: ""; position: absolute; top: -34px; left: 50%; width: 11px; height: 11px; margin-left: -5px; border-radius: 50%; background: #fff; border: 1px solid rgb(16 26 46 / .3); transition: background-color .25s ease, box-shadow .25s ease; }
+.s-steps__n { background: transparent; color: var(--c-accent-deep); width: auto; height: auto; justify-content: start; font: 700 .8rem var(--f-text); letter-spacing: .06em; }
+.s-steps h3 { margin-top: 8px; font-size: 1.05rem; }
+.s-steps__item:nth-child(4) { background: var(--c-accent); color: #fff; border-color: transparent; box-shadow: 0 22px 40px -22px rgb(47 107 220 / .9); transform: translateY(-6px); }
+.s-steps__item:nth-child(4)::before { background: var(--c-accent); border-color: var(--c-accent); box-shadow: 0 0 0 5px rgb(47 107 220 / .2); }
+.s-steps__item:nth-child(4) .s-steps__n, .s-steps__item:nth-child(4) p { color: #e3ecff; }
+.s-steps:hover .s-steps__item:nth-child(4):not(:hover) { background: rgb(255 255 255 / .62); color: var(--c-ink); border-color: rgb(255 255 255 / .9); box-shadow: none; transform: none; }
+.s-steps:hover .s-steps__item:nth-child(4):not(:hover)::before { background: #fff; border-color: rgb(16 26 46 / .3); box-shadow: none; }
+.s-steps:hover .s-steps__item:nth-child(4):not(:hover) .s-steps__n { color: var(--c-accent-deep); }
+.s-steps:hover .s-steps__item:nth-child(4):not(:hover) p { color: var(--c-ink-soft); }
+.s-steps__item:hover { background: var(--c-accent); color: #fff; border-color: transparent; box-shadow: 0 22px 40px -22px rgb(47 107 220 / .9); transform: translateY(-6px); }
+.s-steps__item:hover::before { background: var(--c-accent); border-color: var(--c-accent); box-shadow: 0 0 0 5px rgb(47 107 220 / .2); }
+.s-steps__item:hover .s-steps__n, .s-steps__item:hover p { color: #e3ecff; }
+/* дуга-схема услуг */
+.s-arc__plot { position: relative; max-width: 1000px; margin: 0 auto; aspect-ratio: 1000 / 190; }
+.s-arc__plot svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.s-arc__plot path { fill: none; stroke: rgb(16 26 46 / .35); stroke-width: 1.4; stroke-dasharray: 3 7; stroke-linecap: round; }
+.s-arc__plot ul { list-style: none; margin: 0; padding: 0; }
+.s-arc__plot li { position: absolute; transform: translate(-50%, -50%); display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; padding: 9px 14px; border-radius: 999px; background: #fff; border: 1px solid rgb(16 26 46 / .1); font: 600 .9rem/1 var(--f-text); box-shadow: 0 10px 24px -14px rgb(24 52 110 / .5); }
+.s-arc__plot li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c-accent); box-shadow: 0 0 0 4px rgb(47 107 220 / .16); }
+.s-arc__plot li:nth-child(1) { left: 15%; top: 73%; }
+.s-arc__plot li:nth-child(2) { left: 39%; top: 38%; }
+.s-arc__plot li:nth-child(3) { left: 61%; top: 38%; }
+.s-arc__plot li:nth-child(4) { left: 85%; top: 73%; }
+.s-arc__core { position: relative; margin: 14px auto 0; width: min(100%, 440px); border-radius: 26px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid rgb(255 255 255 / .9); }
+.s-arc__core img { width: 100%; aspect-ratio: 16 / 11; object-fit: cover; }
+.s-arc__core span { position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); white-space: nowrap; display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; background: rgb(255 255 255 / .9); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); font: 600 .85rem/1 var(--f-text); }
+.s-arc__core span::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c-accent); }
+.s-photos img { border-radius: 24px; }
+.s-promises li { border-top: 0; border-radius: 24px; background: rgb(255 255 255 / .78); border: 1px solid rgb(255 255 255 / .9); box-shadow: 0 18px 44px -30px rgb(24 52 110 / .4); padding: 26px; }
+.s-promises li:nth-child(2) { background: var(--c-accent); color: #fff; box-shadow: 0 24px 46px -26px rgb(47 107 220 / .9); }
+.s-promises li:nth-child(2) p { color: #e3ecff; }
+.s-reviews li { border-radius: 22px; background: rgb(255 255 255 / .8); border-color: rgb(255 255 255 / .9); }
+.s-faq details { border-radius: 16px; background: rgb(255 255 255 / .8); border-color: rgb(255 255 255 / .9); }
+.s-contacts { border-radius: 28px; background: linear-gradient(160deg, #e6eefc, #d6e2f8); }
+.s-final h2 { font-size: clamp(2.1rem, 4.6vw, 3.6rem); }
+@media (prefers-reduced-motion: no-preference) {
+  .s-btn:not(.s-btn--ghost):not(.s-btn--sm) { animation: s-ring 3s ease-out infinite; }
+  @keyframes s-ring { 0% { box-shadow: 0 0 0 0 rgb(47 107 220 / .4), 0 10px 24px -14px rgb(47 107 220 / .8); } 70%, 100% { box-shadow: 0 0 0 14px rgb(47 107 220 / 0), 0 10px 24px -14px rgb(47 107 220 / .8); } }
+}
+@media (max-width: 960px) {
+  .s-hero__bg { height: 520px; }
+  .s-strip { grid-template-columns: 1fr 1fr; row-gap: 10px; }
+  .s-strip li:nth-child(3) { border-left: 0; }
+  .s-steps { grid-template-columns: 1fr; padding-top: 0; padding-left: 28px; }
+  .s-steps::before { top: 0; bottom: 0; left: 5px; right: auto; width: 1px; height: auto; background: rgb(16 26 46 / .25); }
+  .s-steps__item::before { top: 24px; left: -28px; margin-left: 0; }
+  .s-steps__item:nth-child(4), .s-steps__item:hover { transform: none; }
+  .s-arc__plot { aspect-ratio: auto; display: grid; }
+  .s-arc__plot svg { display: none; }
+  .s-arc__plot ul { display: grid; gap: 10px; }
+  .s-arc__plot li { position: static; transform: none; width: fit-content; }
+}
+@media (max-width: 640px) {
+  .s-bar { padding-left: 14px; }
+  .s-bar .s-btn--sm::after { display: none; }
+  .s-hero h1 { font-size: calc(2.15rem * var(--h1k, 1)); }
+  .s-strip li { padding: 4px 12px; }
+  .s-strip b { font-size: 1.25rem; }
+  .s-dock .s-btn::after { display: none; }
+}
+.s-foot .sign { display: flex; align-items: center; gap: 12px; font-size: 15px; margin-top: 14px; width: 100%; }
+.s-foot .sign img { width: 44px; height: 44px; border-radius: 10px; display: block; }
+</style>
+</head>
+<body class="s-prod" id="top" data-wa="79107902008" data-tg="comandagruzis" data-max="">
+<header class="s-bar" data-s-bar>
+  <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i>Грузис</a>
+  <div class="s-bar__right">
+    <a class="s-bar__tel" href="tel:+79107902008">+7 (910) 790-20-08</a>
+    <a class="s-btn s-btn--sm" href="#widget">Рассчитать перевозку</a>
+  </div>
+</header>
+<main>
+  <section class="s-hero">
+    <div class="s-hero__text">
+      <p class="s-eyebrow">Круглосуточно на связи · Нижний Новгород</p>
+      <h1><em class="s-hl">Грузовое такси</em> в Нижнем Новгороде – машина быстро, без предоплаты</h1>
+      <p class="s-lead">Свой автопарк и круглосуточная подача. Скажите, что и куда везём – назовём машину и стоимость до выезда, предоплата не нужна.</p>
+      <ul class="s-ticks"><li>Свой автопарк, быстрая подача машины</li><li>Грузовое такси от 1 часа – 1 000 ₽</li><li>Работаем круглосуточно, без предоплаты</li></ul>
+      <p class="s-rating"><b>4,9</b> на Яндекс.Картах · 71 отзыв</p>
+      <figure class="s-hero__photo"><img class="" src="assets/cargo.webp" alt="Белая грузовая машина с открытыми дверями у подъезда и грузом на асфальте" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="s-hero__widget" id="widget"><form class="s-widget" data-s-calc data-base="0" data-min="0" data-min-note="минимальный заказ" data-per="{}" data-message="Здравствуйте! Хочу заказать грузовое такси: {выбор}. Предварительно {итого}. Когда можете подать машину?" onsubmit="return false">
+      <h2 class="s-widget__title">Сколько стоит перевозка</h2>
+      <div class="s-range"><label for="f-hours"><span>Сколько часов</span><b><output data-s-out="hours">1</output> ч</b></label>
+      <input id="f-hours" type="range" name="hours" min="1" max="10" step="1" value="1" data-price="1000" data-label="время" data-unit="ч" data-say="на {v} ч"></div>
+      <fieldset><legend>Грузчики</legend><div class="s-chips"><label class="s-chip"><input type="radio" name="help" value="0" data-label="Только машина" data-price="0" checked><span>Только машина</span></label><label class="s-chip"><input type="radio" name="help" value="1" data-label="Машина и грузчик" data-price="500"><span>Машина и грузчик</span><small class="s-chip__p">500 ₽</small></label></div></fieldset>
+      <p class="s-total"><span>Предварительно</span><b data-s-total>–</b></p>
+      <div class="s-bubble" aria-live="polite"><span class="s-bubble__label">Ваше сообщение</span><p data-s-bubble></p></div>
+      <div class="s-send">
+        <a class="s-btn s-btn--wide" data-s-msg="whatsapp" href="#">Отправить расчёт в WhatsApp</a>
+        <a class="s-btn s-btn--ghost" data-s-msg="telegram" href="#">Telegram</a>
+      </div>
+      <p class="s-send__note" data-s-copied hidden>Текст скопирован – вставьте его в чат.</p>
+      <p class="s-demo">Цены для примера. В вашем сайте будут ваши.</p>
+    </form></div>
+    <figure class="s-hero__bg" aria-hidden="true"><img class="" src="assets/cargo.webp" alt="Белая грузовая машина с открытыми дверями у подъезда и грузом на асфальте" decoding="async" fetchpriority="high"></figure>
+    <ul class="s-strip"><li><b>4,9</b><span>рейтинг на Яндекс.Картах</span></li><li><b>71</b><span>отзыв на карточке</span></li><li><b>299</b><span>фото на карточке</span></li><li><b>24/7</b><span>подача, без предоплаты</span></li></ul>
+  
+    </section>
+
+  <section class="s-section s-reveal" id="arc">
+    <header class="s-section__head"><span class="s-tag">Что возим</span><h2>Одна машина – <em class="s-hl">четыре задачи</em></h2></header>
+    <div class="s-arc__plot">
+      <svg viewBox="0 0 1000 190" preserveAspectRatio="none" aria-hidden="true"><path d="M40 170 Q500 -70 960 170"/></svg>
+      <ul><li>Грузовое такси</li><li>Квартирный переезд</li><li>Перевозка мебели</li><li>Грузчики</li></ul>
+    </div>
+    <figure class="s-arc__core"><img src="assets/load-900.webp" alt="Фургон с грузом на ремнях" loading="lazy" decoding="async"><span>Свой автопарк</span></figure>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><span class="s-tag">Условия</span><h2>Что в цене, а что <em class="s-hl">отдельно</em></h2></header>
+    <div class="s-incl">
+      <div><h3>Входит</h3><ul><li>Машина из своего автопарка, водитель за рулём</li><li>Подача к оговорённому времени, в любое время суток</li><li>Одеяла и ремни для мебели – в машине</li><li>Ставка часа из заявки – без доплат задним числом</li><li>Оплата по факту, без предоплаты</li></ul></div>
+      <div><h3>Отдельно, если нужно</h3><ul><li>Грузчики – по ставке часа</li><li>Упаковка и коробки – по прайсу</li><li>Ожидание сверх оговорённого – по ставке часа</li></ul></div>
+    </div>
+  </section>
+
+  <section class="s-section s-reveal" id="prices">
+    <header class="s-section__head"><h2>Ставка часа – до выезда</h2><p>Грузовое такси от 1 часа – цена с карточки на Яндекс.Картах. Остальные позиции – пример для демонстрации, точные называем при заказе.</p></header>
+    <div class="s-board"><div class="s-board__group">
+      <h3 class="s-board__title">Перевозки</h3>
+      <ul class="s-board__list">
+        <li class="s-board__row"><span class="s-board__name">Грузовое такси<em>от 1 часа, машина с водителем</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">от 1 000 ₽</span></li>
+        <li class="s-board__row"><span class="s-board__name">Квартирный и дачный переезд<em>машина и грузчики</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">уточнить</span></li>
+        <li class="s-board__row"><span class="s-board__name">Грузчики<em>занос, разборка и сборка мебели</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">уточнить</span></li>
+        <li class="s-board__row"><span class="s-board__name">Негабарит и техника<em>по фото груза</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">по фото</span></li>
+      </ul>
+    </div></div>
+    <p class="s-note">Только цена грузового такси взята с карточки Яндекс.Карт. Остальное владелец подставит свои.</p><p class="s-demo">Цены для примера. В вашем сайте будут ваши.</p>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><span class="s-tag">Как работаем</span><h2>Как проходит <em class="s-hl">заказ</em></h2></header>
+    <ol class="s-steps">
+      <li class="s-steps__item"><span class="s-steps__n">01</span><h3>Заявка</h3><p>Назовите адреса и что везёте. Можно просто фото груза.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">02</span><h3>Подтверждение</h3><p>Машина, ставка часа, минимум и время подачи – сообщением.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">03</span><h3>Подача</h3><p>Машина у подъезда к оговорённому времени.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">04</span><h3>В пути</h3><p>Груз закреплён ремнями, мебель в одеялах.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">05</span><h3>Разгрузка</h3><p>Заносим, куда скажете, оплата по факту.</p></li>
+    </ol>
+  </section>
+
+  <section class="s-photos s-reveal" aria-label="Фото"><figure><img class="" src="assets/load.webp" alt="Фургон с коробками на ремнях и мебелью в одеялах" loading="lazy" decoding="async"><figcaption>Груз на ремнях</figcaption></figure><figure><img class="" src="assets/done.webp" alt="Коробки в комнате новой квартиры" loading="lazy" decoding="async"><figcaption>Коробки по комнатам</figcaption></figure><figure><img class="" src="assets/road.webp" alt="Фургон на городской трассе в утреннем свете" loading="lazy" decoding="async"><figcaption>Подача утром, без суеты</figcaption></figure></section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><span class="s-tag">Обещания</span><h2>Что обещаем <em class="s-hl">в заявке</em></h2></header>
+    <ul class="s-promises">
+      <li><h3>Подача без долгого ожидания</h3><p>Свой автопарк – машину подбираем под груз и подаём быстро.</p></li>
+      <li><h3>Без предоплаты</h3><p>Платите по факту, когда груз на месте. Ставка часа известна заранее.</p></li>
+      <li><h3>Круглосуточно</h3><p>Утром, ночью, в выходные – заявку принимаем в любое время.</p></li>
+      <li><h3>Груз – под присмотром</h3><p>Что везём и что хрупкое, фиксируем до выезда.</p></li>
+    </ul>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head s-section__head--reviews"><span class="s-tag">Отзывы</span><h2>Отзывы <em class="s-hl">с Яндекс.Карт</em></h2><p class="s-reviews__rating"><span class="s-reviews__num">4,9</span><span class="s-reviews__stars" style="--r: 4.9" aria-label="рейтинг 4,9 из 5"></span><span class="s-reviews__count">71 отзыв</span><a class="s-reviews__all" href="https://yandex.ru/maps/org/gruzis/145546441871/" target="_blank" rel="noopener">Читать все отзывы на Яндекс.Картах</a></p></header>
+    <ul class="s-reviews">
+      <li><blockquote>«Быстро оперативно ребятки сработали.»</blockquote><p class="s-reviews__who">Рустам · 7 сентября 2019</p></li>
+      <li><blockquote>«шикарная компания! все делают быстро и продуманно»</blockquote><p class="s-reviews__who">Лана · 30 января 2020</p></li>
+      <li><blockquote>«Спасибо Грузис-НН за качественно выполненную работу.»</blockquote><p class="s-reviews__who">elena grishina · 4 июля 2019</p></li>
+    </ul>
+    <p class="s-note">Отзывы с карточки на Яндекс.Картах, без правок.</p>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><span class="s-tag">Вопросы</span><h2>Частые <em class="s-hl">вопросы</em></h2></header>
+    <div class="s-faq"><details><summary>Не знаю, какая машина нужна</summary><p>Пришлите фото груза и адреса – машину и грузчиков подберём сами.</p></details><details><summary>Как считаются часы?</summary><p>От подачи до конца разгрузки, по ставке из заявки. Минимум – один час, он известен заранее.</p></details><details><summary>Нужна ли предоплата?</summary><p>Нет. Платите по факту после перевозки.</p></details></div>
+  </section>
+
+  <section class="s-section s-final s-reveal" id="contacts">
+    <header class="s-section__head"><span class="s-tag">Заявка</span><h2>Скажите, что и <em class="s-hl">куда везём</em></h2></header>
+    <div class="s-contacts">
+      <dl>
+        <div><dt>Адрес</dt><dd>площадь Маршала Жукова, 7, Нижний Новгород</dd></div>
+        <div><dt>Часы</dt><dd>круглосуточно</dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79107902008">+7 (910) 790-20-08</a></dd></div>
+      </dl>
+      <div class="s-contacts__actions">
+        <a class="s-btn" href="#widget">Рассчитать перевозку</a>
+        <a class="s-btn s-btn--ghost" data-s-msg="whatsapp" href="#">WhatsApp</a>
+        <a class="s-btn s-btn--ghost" data-s-msg="telegram" href="#">Telegram</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="s-foot"><p>Грузис · Нижний Новгород</p><p>Грузис: грузовое такси, переезды и грузчики по Нижнему Новгороду</p><p class="sign"><img src="assets/brand-mark.webp" width="44" height="44" alt=""><span>Автор сайта: Антонина Логутенкова</span></p></footer>
+<nav class="s-dock" aria-label="Быстрая связь"><a class="s-btn" href="#widget">Рассчитать перевозку</a><a class="s-btn s-btn--ghost" href="tel:+79107902008">Позвонить</a></nav>
+<script src="style.js" defer></script>
+</body>
+</html>
